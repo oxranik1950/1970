@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+main {
+    padding: 2rem;
+}
+
+.month-nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+.month-nav ul li {
+    display: inline;
+    margin: 0 1rem;
+}
+
+.month-nav ul li a {
+    text-decoration: none;
+    color: #4CAF50;
+    font-weight: bold;
+}
+
+.month-nav ul li a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background-color: #f1f1f1;
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+.calendar {
+    margin: 0 auto;
+    width: 90%;
+}
+
+.calendar h2 {
+    text-align: center;
+}
+
+.days {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 1px;
+}
+
+.day-name, .day {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    text-align: center;
+    padding: 0.5rem;
+}
+
+.day-name {
+    background-color: #4CAF50;
+    color: white;
+    font-weight: bold;
+}
+
+.event {
+    background-color: #ffeb3b;
+    border: 1px solid #ddd;
+}
